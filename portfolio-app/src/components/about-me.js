@@ -1,5 +1,4 @@
 import React from "react";
-import "./images/linkedInPic.jpg";
 
 const About = () => (
   <div>
