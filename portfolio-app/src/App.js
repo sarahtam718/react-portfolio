@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-import About from "./components/about-me.js";
+import About from "./components/about/about.js";
 import Footer from "./components/footer.js";
-import Portfolio from "./components/portfolio-card";
+import Portfolio from "./components/portfolio-card.js";
+// import List from "./components/list.js";
 
 class App extends Component {
   state = {};
@@ -10,7 +11,7 @@ class App extends Component {
   render() {
     console.log("rendered");
     return (
-      <div>
+      <div className="container">
         <About />
         <Portfolio />
         <Footer />
