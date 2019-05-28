@@ -20,7 +20,7 @@ class App extends Component {
           id="portfolio-container"
           style={{ marginTop: 20, marginBottom: 70 }}
         >
-          <h1 className="text-center">Portfolio</h1>
+          <h1 className="text-center">[ Portfolio ]</h1>
           <div id="card-container" className="col">
             {cardData.map(project => (
               <PortCard obj={project} key={project.id} />
