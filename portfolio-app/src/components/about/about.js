@@ -4,7 +4,6 @@ const About = () => (
   <div
     className="about-container card-body d-sm-flex flex-row justify-content-around align-items-center rounded shadow"
     style={{
-      border: "1px solid black",
       padding: 20,
       marginTop: 20,
       backgroundColor: "white"

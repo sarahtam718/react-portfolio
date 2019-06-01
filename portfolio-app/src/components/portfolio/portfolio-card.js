@@ -6,10 +6,7 @@ const PortCard = props => {
   return (
     // <div className="img-container"><img alt="SpongBob" src="{props.obj.img}"/>
     // </div>
-    <div
-      className="card shadow"
-      style={{ padding: 20, margin: 20, border: "1px black solid" }}
-    >
+    <div className="card shadow" style={{ padding: 20, margin: 20 }}>
       <h3>
         <strong>{props.obj.title}</strong>
       </h3>
