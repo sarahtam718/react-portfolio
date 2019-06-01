@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import About from "./components/about/about.js";
+import About from "./components/about.js";
 import Footer from "./components/footer.js";
 import PortCard from "./components/portfolio/portfolio-card";
 // import List from "./components/list.js";
 import cardData from "./components/portfolio/cardData.js";
 
-document.body.style = "background-color: #9fd1b8;";
+document.body.style = "background-color: #613A43;";
 
 class App extends Component {
   state = {};
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     console.log("rendered");
     return (
-      <div className="container">
+      <div>
         <About />
         <div
           id="portfolio-container"

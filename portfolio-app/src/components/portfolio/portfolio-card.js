@@ -24,7 +24,7 @@ const PortCard = props => {
           {props.obj.role}
         </li>
       </ul>
-      <a href={props.obj.githubLink} class="btn btn-info">
+      <a href={props.obj.githubLink} className="btn btn-info">
         Github Code
       </a>
     </div>
