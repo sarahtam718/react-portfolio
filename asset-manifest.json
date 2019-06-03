@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cce8147.chunk.css",
+    "main.js": "/static/js/main.0ec70912.chunk.js",
+    "main.js.map": "/static/js/main.0ec70912.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.003ec8f0.chunk.js": "/static/js/2.003ec8f0.chunk.js",
+    "static/js/2.003ec8f0.chunk.js.map": "/static/js/2.003ec8f0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b552d3613ee5cce0b8cf2ee3b8868e4f.js": "/precache-manifest.b552d3613ee5cce0b8cf2ee3b8868e4f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
+    "static/media/full-green-dot-logo.png": "/static/media/full-green-dot-logo.448f8e8f.png"
+  }
+}
