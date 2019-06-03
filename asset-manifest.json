@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.0ec70912.chunk.js",
-    "main.js.map": "/static/js/main.0ec70912.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.003ec8f0.chunk.js": "/static/js/2.003ec8f0.chunk.js",
-    "static/js/2.003ec8f0.chunk.js.map": "/static/js/2.003ec8f0.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b552d3613ee5cce0b8cf2ee3b8868e4f.js": "/precache-manifest.b552d3613ee5cce0b8cf2ee3b8868e4f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
-    "static/media/full-green-dot-logo.png": "/static/media/full-green-dot-logo.448f8e8f.png"
+    "main.css": "/react-portfolio/static/css/main.2cce8147.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d9f18ef4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d9f18ef4.chunk.js.map",
+    "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
+    "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/react-portfolio/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.003ec8f0.chunk.js": "/react-portfolio/static/js/2.003ec8f0.chunk.js",
+    "static/js/2.003ec8f0.chunk.js.map": "/react-portfolio/static/js/2.003ec8f0.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.e2526b7a0659dcb695025ec6659ac55a.js": "/react-portfolio/precache-manifest.e2526b7a0659dcb695025ec6659ac55a.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/react-portfolio/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.2cce8147.chunk.css.map": "/react-portfolio/static/css/main.2cce8147.chunk.css.map",
+    "static/media/full-green-dot-logo.png": "/react-portfolio/static/media/full-green-dot-logo.448f8e8f.png"
   }
 }
