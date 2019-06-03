@@ -14,14 +14,14 @@ class App extends Component {
   render() {
     console.log("rendered");
     return (
-      <div className="container">
-        <div className="d-flex flex-wrap">
+      <div className="container justify-content-center">
+        <div className="d-lg-flex media">
           <About />
           {/* <div
             id="portfolio-container"
             style={{ marginTop: 20, marginBottom: 70 }}
           > */}
-          <div id="card-container d-flex flex-row">
+          <div className="portfolio d-flex flex-wrap justify-content-center">
             {cardData.map(project => (
               <PortCard obj={project} key={project.id} />
             ))}

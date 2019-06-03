@@ -4,7 +4,7 @@ import Logo from "./images/full-green-dot-logo.png";
 const About = () => (
   <div className="p-4">
     <div
-      className="card shadow rounded"
+      className="about card shadow rounded"
       style={{ width: "18rem", backgroundColor: "#849974", color: "white" }}
     >
       <img className="card-img-top" src={Logo} alt={Logo} />

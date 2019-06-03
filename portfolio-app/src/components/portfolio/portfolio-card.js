@@ -4,7 +4,7 @@ import React from "react";
 const PortCard = props => {
   // console.log(props.obj);
   return (
-    <div className="flex-wrap p-4">
+    <div className="p-4">
       <div
         className="card shadow rounded"
         style={{ width: "18rem", backgroundColor: "#849974", color: "white" }}
@@ -33,8 +33,12 @@ const PortCard = props => {
           className="btn"
           style={{
             color: "#613A43",
-
-            backgroundColor: "#E9DCC3"
+            backgroundColor: "#E9DCC3",
+            height: 40,
+            width: 200,
+            border: "1 solid black",
+            margin: "auto",
+            marginBottom: 20
           }}
         >
           Github Code

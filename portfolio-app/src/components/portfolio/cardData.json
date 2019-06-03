@@ -1,19 +1,19 @@
 [
   {
     "id": 0,
-    "title": "Giftastic",
-    "skills": "JQuery, REST APIs, AJAX",
-    "summary": "Search engine for gifs from the Giphy API",
-    "role": "Independent",
-    "githubLink": "https://sarahtam718.github.io/GifTastic/"
-  },
-  {
-    "id": 1,
     "title": "Gradus",
     "skills": "React.js, Express.js, Node.js, Mongoose/MongoDB",
     "summary": "A counterpoint learning system for advanced music theory students",
     "role": "Developed user-input virtual piano with full octave range, pair-coded multiple front-end components such as “ExCard”, routed Cantus Firmus database to front-end to display under “pick” on ExCards",
     "githubLink": "https://github.com/sarahtam718/Gradus"
+  },
+  {
+    "id": 1,
+    "title": "Todo Toast",
+    "skills": "React.js, Express.js, Node.js, MongoDB, Mongoose, Axios",
+    "summary": "Convenient, simple task manager to help you prioritize and accomplish your tasks so that you can spend more time on those things that don't belong on a todo list! Enjoy features such as adding, editing, and marking complete each task. See all tasks in one place. More to follow!",
+    "role": "Independent",
+    "githubLink": "https://sarahtam718.github.io/GifTastic/"
   },
   {
     "id": 2,
