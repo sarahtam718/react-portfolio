@@ -2,57 +2,46 @@ import React from "react";
 // import cardData from "./cardData.js";
 
 const PortCard = props => {
-  console.log(props.obj);
+  // console.log(props.obj);
   return (
-    // <div className="img-container"><img alt="SpongBob" src="{props.obj.img}"/>
-    // </div>
-    <div className="card shadow" style={{ padding: 20, margin: 20 }}>
-      <h3>
-        <strong>{props.obj.title}</strong>
-      </h3>
-      <ul>
-        <li>
-          <strong>Skills: </strong>
-          {props.obj.skills}
-        </li>
-        <li>
-          <strong>Summary: </strong>
-          {props.obj.summary}
-        </li>
-        <li>
-          <strong>My Role: </strong>
-          {props.obj.role}
-        </li>
-      </ul>
-      <a href={props.obj.githubLink} className="btn btn-info">
-        Github Code
-      </a>
+    <div className="flex-wrap p-4">
+      <div
+        className="card shadow rounded"
+        style={{ width: "18rem", backgroundColor: "#849974", color: "white" }}
+      >
+        <div className="card-body">
+          <h5 className="card-title">
+            <strong>{props.obj.title}</strong>
+          </h5>
+          <ul>
+            <li>
+              <strong>Skills: </strong>
+              {props.obj.skills}
+            </li>
+            <li>
+              <strong>Summary: </strong>
+              {props.obj.summary}
+            </li>
+            <li>
+              <strong>My Role: </strong>
+              {props.obj.role}
+            </li>
+          </ul>
+        </div>
+        <a
+          href={props.obj.githubLink}
+          className="btn"
+          style={{
+            color: "#613A43",
+
+            backgroundColor: "#E9DCC3"
+          }}
+        >
+          Github Code
+        </a>
+      </div>
     </div>
   );
 };
-
-//
-//   return (
-//     <div className="card">
-//       <div className="img-container">
-//         <img
-//           alt="SpongeBob"
-//           src={props.obj.image}
-//         />
-//       </div>
-//       <div className="content">
-//         <ul>
-//           <li>
-//             <strong>Name:</strong> {props.obj.name}
-//           </li>
-//           <li>
-//             <strong>Occupation:</strong> {props.obj.occupation}
-//           </li>
-//           <li>
-//             <strong>Location:</strong> {props.obj.location}
-//           </li>
-//         </ul>
-//       </div>
-//     </div>
 
 export default PortCard;
