@@ -14,18 +14,12 @@ class App extends Component {
   render() {
     console.log("rendered");
     return (
-      <div className="container justify-content-center">
-        <div className="d-lg-flex media">
+      <div className="container">
+        <div className="d-flex flex-wrap flex-row justify-content-center">
           <About />
-          {/* <div
-            id="portfolio-container"
-            style={{ marginTop: 20, marginBottom: 70 }}
-          > */}
-          <div className="portfolio d-flex flex-wrap justify-content-center">
-            {cardData.map(project => (
-              <PortCard obj={project} key={project.id} />
-            ))}
-          </div>
+          {cardData.map(project => (
+            <PortCard obj={project} key={project.id} />
+          ))}
         </div>
         <div style={{ marginTop: 40 }}>
           <Footer />
@@ -36,3 +30,19 @@ class App extends Component {
 }
 
 export default App;
+
+// return (
+//   <div className="container justify-content-md-center">
+//     <div className="media d-md-flex">
+//       <About />
+//       <div className="portfolio d-md-flex flex-md-wrap justify-content-md-center">
+//         {cardData.map(project => (
+//           <PortCard obj={project} key={project.id} />
+//         ))}
+//       </div>
+//     </div>
+//     <div style={{ marginTop: 40 }}>
+//       <Footer />
+//     </div>
+//   </div>
+// );

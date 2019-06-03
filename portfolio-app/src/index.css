@@ -11,10 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@media only screen and (max-width: 700px) {
-  .card {
-    background-color: yellow;
-    font-size: 16px;
-  }
-}

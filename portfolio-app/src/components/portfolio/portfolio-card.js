@@ -7,7 +7,7 @@ const PortCard = props => {
     <div className="p-4">
       <div
         className="card shadow rounded"
-        style={{ width: "18rem", backgroundColor: "#849974", color: "white" }}
+        style={{ width: "15rem", backgroundColor: "#849974", color: "white" }}
       >
         <div className="card-body">
           <h5 className="card-title">
@@ -18,10 +18,12 @@ const PortCard = props => {
               <strong>Skills: </strong>
               {props.obj.skills}
             </li>
+            <br />
             <li>
               <strong>Summary: </strong>
               {props.obj.summary}
             </li>
+            <br />
             <li>
               <strong>My Role: </strong>
               {props.obj.role}
