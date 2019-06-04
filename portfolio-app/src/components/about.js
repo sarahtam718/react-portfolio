@@ -4,18 +4,23 @@ import Logo from "./images/full-green-dot-logo.png";
 const About = () => (
   <div className="p-4">
     <div
-      className="about card shadow rounded"
-      style={{ width: "18em", backgroundColor: "#849974", color: "white" }}
+      className="jumbotron rounded shadow"
+      style={{
+        background: "#849974",
+        color: "white",
+        paddingTop: 50,
+        paddingBottom: 50
+      }}
     >
-      <img className="card-img-top" src={Logo} alt={Logo} />
-      <div className="card-body">
-        <h5 className="card-title">About Me</h5>
-        <p className="card-text">
+      <div className="container">
+        <h1 className="display-4">Welcome!</h1>
+        <h3>About Me</h3>
+        <p className="lead">
           Full Stack Web Developer educated at Northwestern University in Full
-          Stack Web Development specializing in React.js, JavaScript, and
+          Stack Web Development. Specializes in React.js, JavaScript, and
           MongoDB.
         </p>
-        <p className="card-text">
+        <p className="lead">
           Passionate about seeing all the pieces come together to create
           something beautiful and functional. Looking for a great team to join
           as a full-time web developer.

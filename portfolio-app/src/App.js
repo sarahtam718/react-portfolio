@@ -32,12 +32,10 @@ class App extends Component {
           full stack web developer
         </nav>
         <div className="container">
-          <div className="d-flex flex-wrap flex-row justify-content-center">
-            <About />
-            {cardData.map(project => (
-              <PortCard obj={project} key={project.id} />
-            ))}
-          </div>
+          <About />
+          {cardData.map(project => (
+            <PortCard obj={project} key={project.id} />
+          ))}
           <div style={{ marginTop: 40 }}>
             <Footer />
           </div>
