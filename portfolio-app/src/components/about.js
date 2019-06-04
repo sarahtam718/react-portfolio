@@ -5,7 +5,7 @@ const About = () => (
   <div className="p-4">
     <div
       className="about card shadow rounded"
-      style={{ width: "18rem", backgroundColor: "#849974", color: "white" }}
+      style={{ width: "18em", backgroundColor: "#849974", color: "white" }}
     >
       <img className="card-img-top" src={Logo} alt={Logo} />
       <div className="card-body">
