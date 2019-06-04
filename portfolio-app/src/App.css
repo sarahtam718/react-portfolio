@@ -1,13 +1,7 @@
-.navbar-brand {
-  margin-top: -7.5px;
-  font-family: "Montserrat", sans-serif;
-  color: "#613A43";
-}
-
 .card-title {
   font-size: 20px;
 }
 
-a {
-  color: #613a43;
+.btn {
+  font-family: "Montserrat", sans-serif;
 }

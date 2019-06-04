@@ -27,7 +27,7 @@
     "id": 3,
     "title": "LIRI Bot",
     "skills": "Node.js, Axios, Chalk-Animation, Figlet, Inquirer, Moment.js, Node Spotify API",
-    "summary": "LIRI is a command line node app that takes in parameters and gives you back data. A user can look up concerts for favorite artists to see when they'll be in town, or call details for songs to know more about them and get a preview, or look up movies to see if they might be an interesting watch!",
+    "summary": "A command line node app that takes in parameters and gives you back data. A user can look up concerts for favorite artists to see when they'll be in town, or call details for songs to know more about them and get a preview, or look up movies to see if they might be an interesting watch!",
     "role": "Independent",
     "githubLink": "https://github.com/sarahtam718/liri-node-app"
   },

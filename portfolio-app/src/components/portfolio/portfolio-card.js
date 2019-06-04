@@ -1,5 +1,4 @@
 import React from "react";
-// import cardData from "./cardData.js";
 
 const PortCard = props => {
   // console.log(props.obj);
@@ -7,7 +6,7 @@ const PortCard = props => {
     <div className="p-4">
       <div
         className="card shadow rounded"
-        style={{ width: "15rem", backgroundColor: "#849974", color: "white" }}
+        style={{ width: "25rem", backgroundColor: "#849974", color: "white" }}
       >
         <div className="card-body">
           <h5 className="card-title">
@@ -34,13 +33,13 @@ const PortCard = props => {
           href={props.obj.githubLink}
           className="btn"
           style={{
-            color: "#613A43",
-            backgroundColor: "#E9DCC3",
+            backgroundColor: "#613A43",
+            color: "white",
             height: 40,
             width: 200,
-            border: "1 solid black",
             margin: "auto",
-            marginBottom: 20
+            marginBottom: 20,
+            letterSpacing: 0.5
           }}
         >
           Github Code
