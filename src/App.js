@@ -11,7 +11,6 @@ document.body.style = "background-color: #613A43;";
 
 class App extends Component {
   render() {
-    console.log("rendered");
     return (
       <div>
         <Navbar />

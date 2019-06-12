@@ -29,21 +29,42 @@ const PortCard = props => {
             </li>
           </ul>
         </div>
-        <a
-          href={props.obj.githubLink}
-          className="btn"
-          style={{
-            backgroundColor: "#613A43",
-            color: "white",
-            height: 40,
-            width: 200,
-            margin: "auto",
-            marginBottom: 20,
-            letterSpacing: 0.5
-          }}
-        >
-          Github Code
-        </a>
+        <div style={{ display: "flex" }}>
+          <a
+            href={props.obj.githubLink}
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              backgroundColor: "#613A43",
+              color: "white",
+              height: 40,
+              width: 150,
+              margin: "auto",
+              marginBottom: 20,
+              letterSpacing: 0.5
+            }}
+          >
+            Github Code
+          </a>
+          <a
+            href={props.obj.deployedLink}
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              backgroundColor: "#613A43",
+              color: "white",
+              height: 40,
+              width: 150,
+              margin: "auto",
+              marginBottom: 20,
+              letterSpacing: 0.5
+            }}
+          >
+            Deployed Link
+          </a>
+        </div>
       </div>
     </div>
   );

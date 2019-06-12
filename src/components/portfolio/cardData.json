@@ -5,7 +5,8 @@
     "skills": "Heroku deployment, React.js, Express.js, Node.js, Mongoose/MongoDB, Bcrypt, Passport.js, JSON Web Token, Web Midi API, Bootstrap",
     "summary": "A counterpoint learning system for advanced music theory students",
     "role": "Developed user-input virtual piano with full octave range, pair-coded multiple front-end components such as “ExCard”, routed Cantus Firmus database to front-end to display under “pick” on ExCards",
-    "githubLink": "https://github.com/sarahtam718/Gradus"
+    "githubLink": "https://github.com/sarahtam718/Gradus",
+    "deployedLink": "https://pacific-cove-65892.herokuapp.com/"
   },
   {
     "id": 1,
@@ -21,7 +22,8 @@
     "skills": "Heroku deployment, MySQL, Sequelize, Node.js, Handlebars,Later.js, Moment.js, Node Mailer, Materialize",
     "summary": "A beauty appointment scheduler",
     "role": "Developed and consolidated routes for Handlebars front to back, assisted in creating services page, created home page and form with dynamic buttons for appointment times",
-    "githubLink": "https://github.com/sarahtam718/spatify"
+    "githubLink": "https://github.com/sarahtam718/spatify",
+    "deployedLink": "https://warm-forest-47596.herokuapp.com/"
   },
   {
     "id": 3,
@@ -29,7 +31,8 @@
     "skills": "Node.js, Axios, Chalk-Animation, Figlet, Inquirer, Moment.js, Node Spotify API",
     "summary": "A command line node app that takes in parameters and gives you back data. A user can look up concerts for favorite artists to see when they'll be in town, or call details for songs to know more about them and get a preview, or look up movies to see if they might be an interesting watch!",
     "role": "Independent",
-    "githubLink": "https://github.com/sarahtam718/liri-node-app"
+    "githubLink": "https://github.com/sarahtam718/liri-node-app",
+    "deployedLink": "https://github.com/sarahtam718/liri-node-app"
   },
   {
     "id": 4,
@@ -37,6 +40,7 @@
     "skills": "JQuery, AJAX, Giphy API",
     "summary": "A fun search engine for gifs from the Giphy API. User types in an animal and then presses that dynamically created button to view 10 gifs of that creature.",
     "role": "Independent",
-    "githubLink": "https://github.com/sarahtam718/GifTastic"
+    "githubLink": "https://github.com/sarahtam718/GifTastic",
+    "deployedLink": "https://sarahtam718.github.io/GifTastic/"
   }
 ]
