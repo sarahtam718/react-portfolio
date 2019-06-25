@@ -3,7 +3,7 @@ import SmallLogo from "./images/small-green-dot-logo.png";
 
 const Navbar = () => (
   <nav
-    className="navbar  navbar-light bg-light shadow"
+    className="navbar navbar-light bg-light shadow"
     style={{
       backgroundColor: "white",
       color: "#613a43"

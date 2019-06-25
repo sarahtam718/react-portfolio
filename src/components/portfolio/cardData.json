@@ -3,7 +3,7 @@
     "id": 0,
     "title": "Gradus",
     "skills": "Heroku deployment, React.js, Express.js, Node.js, Mongoose/MongoDB, Bcrypt, Passport.js, JSON Web Token, Web Midi API, Bootstrap",
-    "summary": "A counterpoint learning system for advanced music theory students",
+    "summary": "A counterpoint learning system for advanced music theory students. *Mobile version still in development",
     "role": "Developed user-input virtual piano with full octave range, pair-coded multiple front-end components such as “ExCard”, routed Cantus Firmus database to front-end to display under “pick” on ExCards",
     "githubLink": "https://github.com/sarahtam718/Gradus",
     "deployedLink": "https://pacific-cove-65892.herokuapp.com/"
@@ -12,9 +12,10 @@
     "id": 1,
     "title": "Todo Toast",
     "skills": "Heroku deployment, React.js, Express.js, Node.js, MongoDB, Mongoose, Axios, Bootstrap",
-    "summary": "Convenient, simple task manager to help you prioritize and accomplish your tasks so that you can spend more time on those things that don't belong on a todo list! Enjoy features such as adding, editing, and marking complete each task. See all tasks in one place. More to follow!",
+    "summary": "Convenient, simple task manager with a Pomodoro timer to help you prioritize and accomplish your tasks so that you can spend more time on those things that don't belong on a todo list! Enjoy features such as adding, editing, marking complete, and deleting each task. See all tasks in one place.",
     "role": "Independent",
-    "githubLink": "https://github.com/sarahtam718/todo-toast"
+    "githubLink": "https://github.com/sarahtam718/todo-toast",
+    "deployedLink": "https://github.com/sarahtam718/todo-toast"
   },
   {
     "id": 2,
