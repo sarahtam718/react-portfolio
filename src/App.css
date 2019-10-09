@@ -1,7 +1,31 @@
+:root {
+  --background-site-color: #613a43;
+  --card-color: #849974;
+  --text-color: white;
+  --portfolio-container-color: #f8f9fa;
+}
+
 .card-title {
   font-size: 20px;
 }
 
-.btn {
-  font-family: "Montserrat", sans-serif;
+.link-button.btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-site-color);
+  color: var(--text-color);
+  height: 40px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.card-style {
+  background-color: var(--card-color);
+  color: var(--text-color);
+}
+
+.jumbotron {
+  background-color: var(--portfolio-container-color);
+  color: var(--background-site-color);
 }

@@ -1,15 +1,12 @@
-import React from "react";
+import React from 'react';
+import Button from './button';
 
 const PortCard = props => {
-  // console.log(props.obj);
   return (
-    <div className="p-4">
-      <div
-        className="card shadow rounded"
-        style={{ width: "25rem", backgroundColor: "#849974", color: "white" }}
-      >
-        <div className="card-body">
-          <h5 className="card-title">
+    <div className='p-4'>
+      <div className='card shadow rounded card-style'>
+        <div className='card-body'>
+          <h5 className='card-title'>
             <strong>{props.obj.title}</strong>
           </h5>
           <ul>
@@ -29,18 +26,18 @@ const PortCard = props => {
             </li>
           </ul>
         </div>
-        <div style={{ display: "flex" }}>
+        <div style={{ display: 'flex' }}>
           <a
             href={props.obj.githubLink}
-            className="btn"
-            target="_blank"
-            rel="noopener noreferrer"
+            className='btn'
+            target='_blank'
+            rel='noopener noreferrer'
             style={{
-              backgroundColor: "#613A43",
-              color: "white",
+              backgroundColor: '#613A43',
+              color: 'white',
               height: 40,
               width: 150,
-              margin: "auto",
+              margin: 'auto',
               marginBottom: 20,
               letterSpacing: 0.5
             }}
@@ -49,21 +46,23 @@ const PortCard = props => {
           </a>
           <a
             href={props.obj.deployedLink}
-            className="btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              backgroundColor: "#613A43",
-              color: "white",
-              height: 40,
-              width: 150,
-              margin: "auto",
-              marginBottom: 20,
-              letterSpacing: 0.5
-            }}
+            className='link-button btn'
+            target='_blank'
+            rel='noopener noreferrer'
+            // style={{
+            //   backgroundColor: "#613A43",
+            //   color: "white",
+            //   height: 40,
+            //   width: 150,
+            //   margin: "auto",
+            //   marginBottom: 20,
+            //   letterSpacing: 0.5
+            // }}
           >
             Deployed Link
           </a>
+          <Button link={props.obj.deployedLink} display='Deployed Link' />
+          <Button link={props.obj.githubLink} display='Github Link' />
         </div>
       </div>
     </div>
