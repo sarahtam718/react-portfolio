@@ -4,12 +4,14 @@
   --text-color: white;
   --portfolio-container-color: #f8f9fa;
 }
-
 .card-title {
   font-size: 20px;
 }
 
-.link-button.btn {
+* {
+  box-sizing: border-box;
+}
+/* .link-button.btn {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--background-site-color);
   color: var(--text-color);
@@ -18,14 +20,25 @@
   margin: auto;
   margin-bottom: 20px;
   letter-spacing: 0.5px;
-}
+} */
 
 .card-style {
   background-color: var(--card-color);
   color: var(--text-color);
+  flex-basis: 700px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 24px;
 }
 
 .jumbotron {
   background-color: var(--portfolio-container-color);
   color: var(--background-site-color);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

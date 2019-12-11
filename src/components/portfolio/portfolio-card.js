@@ -3,9 +3,14 @@ import Button from './button';
 
 const PortCard = props => {
   return (
-    <div className='p-4'>
-      <div className='card shadow rounded card-style'>
-        <div className='card-body'>
+    <div
+      className='card-style'
+      onClick={function() {
+        props.handleActive(props.obj.id);
+      }}
+    >
+      <div>
+        <div>
           <h5 className='card-title'>
             <strong>{props.obj.title}</strong>
           </h5>
