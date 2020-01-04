@@ -32,7 +32,7 @@ const PortCard = props => {
           </ul>
         </div>
         <div style={{ display: 'flex' }}>
-          <a
+          {/* <a
             href={props.obj.githubLink}
             className='btn'
             target='_blank'
@@ -65,7 +65,7 @@ const PortCard = props => {
             // }}
           >
             Deployed Link
-          </a>
+          </a> */}
           <Button link={props.obj.deployedLink} display='Deployed Link' />
           <Button link={props.obj.githubLink} display='Github Link' />
         </div>

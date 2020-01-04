@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PortCard from './portfolio-card.js';
 import cardData from './cardData.json';
+import OneCard from './oneCard';
 
 class JumbotronPortfolio extends Component {
   state = {
@@ -14,7 +15,7 @@ class JumbotronPortfolio extends Component {
   render() {
     return (
       <div className='jumbotron'>
-        <h1 className='display-4'>Portfolio</h1>
+        <h1>Portfolio</h1>
         {this.state.active === null ? (
           <div className='card-container'>
             {cardData.map(project => (
@@ -26,11 +27,13 @@ class JumbotronPortfolio extends Component {
             ))}
           </div>
         ) : (
-          <h1 onClick={() => this.setActive(null)}>Hello - True</h1>
-          // show only one card's data
+          <div onClick={() => this.setActive(null)}>
+            <OneCard data={cardData} />
+            {/* // show only one card's data
           // we know the id because state is active: id
           // cardData[this.state.active] would give me that object
-          // pass in each item in object as props & display
+          // pass in each item in object as props & display */}
+          </div>
         )}
       </div>
     );
