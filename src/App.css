@@ -4,12 +4,60 @@
   --text-color: white;
   --portfolio-container-color: #f8f9fa;
 }
-.card-title {
-  font-size: 20px;
-}
 
 * {
   box-sizing: border-box;
+}
+
+nav {
+  background-color: white;
+  color: var(--background-site-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+a {
+  color: var(--background-site-color);
+  padding-left: 10px;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.name-link {
+  font-size: 25px;
+}
+
+.site-links {
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  font-size: 22px;
+  padding-top: 3px;
+}
+
+.card-title {
+  font-size: 20px;
 }
 /* .link-button.btn {
   font-family: 'Montserrat', sans-serif;
